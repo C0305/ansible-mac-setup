@@ -1,0 +1,36 @@
+---
+# tasks file for homebrew
+
+- name: Install base homebrew packages
+  homebrew:
+    name: '{{ homebrew_base }}'
+    state: latest
+  tags:
+  - brew
+  - base-apps
+
+- name: Install cask devtools homebrew packages
+  homebrew_cask:
+    name: '{{ homebrew_devtools_cask }}'
+    state: latest
+  tags:
+  - brew
+  - cask
+  - developer-tools
+
+- name: Install cask apps
+  homebrew_cask:
+    name: '{{ homebrew_cask }}'
+    state: latest
+  tags:
+  - brew
+  - cask
+
+- name: Install browsers homebrew packages
+  homebrew_cask:
+    name: '{{ homebrew_browsers_cask }}'
+    state: latest
+  tags:
+  - brew
+  - cask
+  - browsers

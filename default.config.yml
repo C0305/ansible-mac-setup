@@ -1,0 +1,67 @@
+mac_apps:
+  - 490461369 # bandwith+
+  - 803453959 # slack
+  - 961632517 # Be Focus pro
+  - 568494494 # Pocket
+  - 406056744 # Evernote
+  - 405399194 # Kindle
+  - 585829637 # Todoist
+  - 1176074088 # Termius
+  - 553245401 # Friendly Streaming
+  - 639968404 # Parcel
+  - 1087284172 # Focus Matrix
+  - 928871589 # Noizio
+  - 972572731 # Money Pro
+  - 1462114288 # Grammarly for Safari
+  - 1481669779 # Evernote web clipper
+  - 1482454543 # Twitter
+  - 732710998 # Enpass
+  - 497799835 # Xcode
+  - 933627574 # Silicio for Spotify and iTunes
+  - 1116599239 # NordVPN Ike 2
+
+homebrew_base:
+  - bash
+  - htop
+  - fish
+  - mas
+  - mc 
+  - speedtest-cli
+  - archey
+  - jq
+  - ncdu
+  - byobu
+  - fortune
+  - cowsay
+
+homebrew_cask:
+  - adobe-creative-cloud
+  - setapp
+  - java
+  - timely
+  - dropbox
+
+homebrew_devtools_cask:
+  - phpstorm
+  - webstorm
+  - goland
+  - pycharm
+  - visual-studio-code
+  - virtualbox
+  - vagrant
+  - multipass
+  - virtualbox-extension-pack
+  - homebrew/cask/java 
+
+homebrew_browsers_cask:
+  - opera
+  - google-chrome
+  - homebrew/cask-versions/firefox-developer-edition
+
+
+dmg_apps: 
+  - { app_name: "Docker", url: "https://download.docker.com/mac/stable/Docker.dmg" }
+  - { app_name: "NordPass", url: "https://downloads.npass.app/mac/NordPass.dmg"}
+  - { app_name: "Miro", url: "https://desktop.realtimeboard.com/platforms/darwin/Miro%20-%20formerly%20RealtimeBoard.dmg?__hstc=18393318.c5900cc8fbc8a94d1ff50e0690bf9e8a.1587882876048.1587882876048.1587882876048.1&__hssc=18393318.2.1587882876049&__hsfp=4010757561"}
+  - { app_name: "Grammarly", url: "https://download-editor.grammarly.com/osx/Grammarly.dmg"}
+  - { app_name: "Yack", url: "https://yack-prod-public.s3-us-west-2.amazonaws.com/yack-releases/beta/yack-beta.dmg"}

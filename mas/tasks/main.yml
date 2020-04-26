@@ -1,0 +1,8 @@
+---
+# tasks file for mas
+- name: Install Mac Apps
+  shell:
+    cmd: "mas install {{ item }}"
+  with_items: "{{ mac_apps }}"
+  tags:
+  - Mac App Store

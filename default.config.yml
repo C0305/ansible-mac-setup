@@ -36,10 +36,12 @@ homebrew_base:
 
 homebrew_cask:
   - adobe-creative-cloud
-  - setapp
+  #- setapp
   - java
-  - timely
+  #- timely
   - dropbox
+  - slack
+  - timing
 
 homebrew_devtools_cask:
   - phpstorm
@@ -61,7 +63,7 @@ homebrew_browsers_cask:
 
 dmg_apps: 
   - { app_name: "Docker", url: "https://download.docker.com/mac/stable/Docker.dmg" }
-  - { app_name: "NordPass", url: "https://downloads.npass.app/mac/NordPass.dmg"}
-  - { app_name: "Miro", url: "https://desktop.realtimeboard.com/platforms/darwin/Miro%20-%20formerly%20RealtimeBoard.dmg?__hstc=18393318.c5900cc8fbc8a94d1ff50e0690bf9e8a.1587882876048.1587882876048.1587882876048.1&__hssc=18393318.2.1587882876049&__hsfp=4010757561"}
+  #- { app_name: "NordPass", url: "https://downloads.npass.app/mac/NordPass.dmg"}
+  #- { app_name: "Miro", url: "https://desktop.realtimeboard.com/platforms/darwin/Miro%20-%20formerly%20RealtimeBoard.dmg?__hstc=18393318.c5900cc8fbc8a94d1ff50e0690bf9e8a.1587882876048.1587882876048.1587882876048.1&__hssc=18393318.2.1587882876049&__hsfp=4010757561"}
   - { app_name: "Grammarly", url: "https://download-editor.grammarly.com/osx/Grammarly.dmg"}
   - { app_name: "Yack", url: "https://yack-prod-public.s3-us-west-2.amazonaws.com/yack-releases/beta/yack-beta.dmg"}

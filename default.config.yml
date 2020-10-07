@@ -3,7 +3,7 @@ mac_apps:
   - 803453959 # slack
   - 961632517 # Be Focus pro
   - 568494494 # Pocket
-  - 406056744 # Evernote
+  #- 406056744 # Evernote
   - 405399194 # Kindle
   - 585829637 # Todoist
   - 1176074088 # Termius
@@ -13,12 +13,25 @@ mac_apps:
   - 928871589 # Noizio
   - 972572731 # Money Pro
   - 1462114288 # Grammarly for Safari
-  - 1481669779 # Evernote web clipper
+  #- 1481669779 # Evernote web clipper
   - 1482454543 # Twitter
-  - 732710998 # Enpass
+  #- 732710998 # Enpass
   - 497799835 # Xcode
-  - 933627574 # Silicio for Spotify and iTunes
+  #- 933627574 # Silicio for Spotify and iTunes
   - 1116599239 # NordVPN Ike 2
+  - 1147396723 # WhatsApp Desktop
+  - 1480068668 # Messenger
+  - 803453959 # Slack
+  - 957810159 # Raindrop for Safari
+  - 1176895641 # Spark
+  - 1444383602 # GoodNotes 5
+  - 462058435 # Excel
+  - 462062816 # PowerPoint
+  - 462054704 # Word
+  - 1295203466 # Microsoft Remote Desktop
+  - 865500966 # feedly
+  - 736189492 # Notability
+  - 1333542190 # 1password
 
 homebrew_base:
   - bash
@@ -33,6 +46,8 @@ homebrew_base:
   - byobu
   - fortune
   - cowsay
+  - node
+  - nmap
 
 homebrew_cask:
   - adobe-creative-cloud
@@ -40,7 +55,6 @@ homebrew_cask:
   - java
   #- timely
   - dropbox
-  - slack
   - timing
 
 homebrew_devtools_cask:

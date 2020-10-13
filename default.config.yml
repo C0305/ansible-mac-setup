@@ -47,15 +47,17 @@ homebrew_base:
   - fortune
   - cowsay
   - node
-  - nmap
-
+  - nmap 
+  - java
+  - unrar
+  - terraform
 homebrew_cask:
   - adobe-creative-cloud
   #- setapp
-  - java
   #- timely
   - dropbox
   - timing
+  - forticlient
 
 homebrew_devtools_cask:
   - phpstorm
@@ -67,7 +69,6 @@ homebrew_devtools_cask:
   - vagrant
   - multipass
   - virtualbox-extension-pack
-  - homebrew/cask/java 
 
 homebrew_browsers_cask:
   - opera

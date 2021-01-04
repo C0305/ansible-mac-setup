@@ -1,17 +1,17 @@
 mac_apps:
   - 490461369 # bandwith+
   - 803453959 # slack
-  - 961632517 # Be Focus pro
+#  - 961632517 # Be Focus pro
   - 568494494 # Pocket
-  #- 406056744 # Evernote
+#  - 406056744 # Evernote
   - 405399194 # Kindle
   - 585829637 # Todoist
   - 1176074088 # Termius
   - 553245401 # Friendly Streaming
   - 639968404 # Parcel
-  - 1087284172 # Focus Matrix
-  - 928871589 # Noizio
-  - 972572731 # Money Pro
+#  - 1087284172 # Focus Matrix
+#  - 928871589 # Noizio
+#  - 972572731 # Money Pro
   - 1462114288 # Grammarly for Safari
   #- 1481669779 # Evernote web clipper
   - 1482454543 # Twitter
@@ -19,10 +19,10 @@ mac_apps:
   - 497799835 # Xcode
   #- 933627574 # Silicio for Spotify and iTunes
   - 1116599239 # NordVPN Ike 2
-  - 1147396723 # WhatsApp Desktop
-  - 1480068668 # Messenger
-  - 803453959 # Slack
-  - 957810159 # Raindrop for Safari
+#  - 1147396723 # WhatsApp Desktop
+#  - 1480068668 # Messenger
+#  - 803453959 # Slack
+#  - 957810159 # Raindrop for Safari
   - 1176895641 # Spark
   - 1444383602 # GoodNotes 5
   - 462058435 # Excel
@@ -34,7 +34,7 @@ mac_apps:
   - 1333542190 # 1password
 
 homebrew_base:
-  - bash
+#  - bash
   - htop
   - fish
   - mas
@@ -49,26 +49,30 @@ homebrew_base:
   - node
   - nmap 
   - java
-  - unrar
+  - wget
+#  - unrar
   - terraform
 homebrew_cask:
   - adobe-creative-cloud
-  #- setapp
-  #- timely
+#  - setapp
+#  - timely
   - dropbox
-  - timing
-  - forticlient
+#  - timing
+#  - synology-surveillance-station-client
+#  - synology-photo-station-uploader
+#  - synology-note-station-client
+#  - forticlient
 
 homebrew_devtools_cask:
-  - phpstorm
+#  - phpstorm
   - webstorm
   - goland
   - pycharm
   - visual-studio-code
-  - virtualbox
-  - vagrant
+#  - virtualbox
+#  - vagrant
   - multipass
-  - virtualbox-extension-pack
+#  - virtualbox-extension-pack
 
 homebrew_browsers_cask:
   - opera
@@ -81,4 +85,5 @@ dmg_apps:
   #- { app_name: "NordPass", url: "https://downloads.npass.app/mac/NordPass.dmg"}
   #- { app_name: "Miro", url: "https://desktop.realtimeboard.com/platforms/darwin/Miro%20-%20formerly%20RealtimeBoard.dmg?__hstc=18393318.c5900cc8fbc8a94d1ff50e0690bf9e8a.1587882876048.1587882876048.1587882876048.1&__hssc=18393318.2.1587882876049&__hsfp=4010757561"}
   - { app_name: "Grammarly", url: "https://download-editor.grammarly.com/osx/Grammarly.dmg"}
+  - { app_name: "Kite", url: "https://alpha.kite.com/release/dls/mac/current"}
   - { app_name: "Yack", url: "https://yack-prod-public.s3-us-west-2.amazonaws.com/yack-releases/beta/yack-beta.dmg"}
